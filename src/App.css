@@ -1,38 +1,62 @@
-.App {
-  text-align: center;
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.wrap{
+  /* border: thin red solid; */
+  /* width: 100%; */
+  margin: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header-container{
+  border-bottom: thin lightgray solid;
+  background-color: black;
+  height: 5em;
+  /* padding-top: .8em; */
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.header-text{
+  color: white;
+  font-size: 2em;
+  padding-left: 0.5em;
+}
+
+.header-bars{
+  color: white;
+  font-size: 1.8em;
+  padding-right: 0.5em;
+}
+
+.article{
+  /* border: thin blue solid; */
+  border-bottom: thin lightgray solid;
+  min-height: 10em;
+  display: flex;
+  padding: .5em;
+  background-color: black;
+}
+
+.article-image img{
+  display: block;
+  width:100%;
+}
+
+.article-text{
+  padding-left: 1em;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+h1{
+  font-size: 1.5em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+p{
+  font-size: 1em;
 }
